@@ -71,6 +71,7 @@ btn.forEach(element => {
     })
 });
 
+// dblclick turns destination border blue
 const destination = document.querySelectorAll('.destination');
 console.log(destination)
 destination.forEach(element => {
@@ -86,5 +87,3 @@ window.addEventListener('focus', () => {
     console.log('This Window is in Focus');
     footer.textContent = 'Window is in Focus';
 });
-
-const adventureAwaits = document.querySelector('.inverse-content div h2');
